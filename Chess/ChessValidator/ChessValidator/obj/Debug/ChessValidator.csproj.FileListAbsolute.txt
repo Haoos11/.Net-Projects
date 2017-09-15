@@ -1,0 +1,7 @@
+E:\Csharp\Chess\ChessValidator\ChessValidator\bin\Debug\SilviuChessValidator.exe.config
+E:\Csharp\Chess\ChessValidator\ChessValidator\bin\Debug\SilviuChessValidator.exe
+E:\Csharp\Chess\ChessValidator\ChessValidator\bin\Debug\SilviuChessValidator.pdb
+E:\Csharp\Chess\ChessValidator\ChessValidator\bin\Debug\ChessModel.dll
+E:\Csharp\Chess\ChessValidator\ChessValidator\obj\Debug\SilviuChessValidator.exe
+E:\Csharp\Chess\ChessValidator\ChessValidator\obj\Debug\SilviuChessValidator.pdb
+E:\Csharp\Chess\ChessValidator\ChessValidator\obj\Debug\ChessValidator.csprojResolveAssemblyReference.cache

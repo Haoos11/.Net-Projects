@@ -1,0 +1,16 @@
+E:\Csharp\Chess\ChessValidator\ChessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Csharp\Chess\ChessValidator\ChessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Csharp\Chess\ChessValidator\ChessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Csharp\Chess\ChessValidator\ChessTest\bin\Debug\ChessTest.dll
+E:\Csharp\Chess\ChessValidator\ChessTest\bin\Debug\ChessTest.pdb
+E:\Csharp\Chess\ChessValidator\ChessTest\bin\Debug\ChessModel.dll
+E:\Csharp\Chess\ChessValidator\ChessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Csharp\Chess\ChessValidator\ChessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Csharp\Chess\ChessValidator\ChessTest\bin\Debug\SilviuChessValidator.exe
+E:\Csharp\Chess\ChessValidator\ChessTest\bin\Debug\SilviuChessValidator.pdb
+E:\Csharp\Chess\ChessValidator\ChessTest\bin\Debug\SilviuChessValidator.exe.config
+E:\Csharp\Chess\ChessValidator\ChessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Csharp\Chess\ChessValidator\ChessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\Csharp\Chess\ChessValidator\ChessTest\obj\Debug\ChessTest.csprojResolveAssemblyReference.cache
+E:\Csharp\Chess\ChessValidator\ChessTest\obj\Debug\ChessTest.dll
+E:\Csharp\Chess\ChessValidator\ChessTest\obj\Debug\ChessTest.pdb
