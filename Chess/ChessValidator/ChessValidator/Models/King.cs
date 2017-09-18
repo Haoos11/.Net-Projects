@@ -20,7 +20,12 @@ namespace ChessValidator.Models
             var endPiesa = tabla[endX, endY];
 
             var Rege = startPiesa;
+            var bendPiesa = endPiesa;
             bool rez = false;
+
+            tabla[startX, startY] = null;
+            tabla[endX, endY] = null;
+
             for (int i = 0; i < 8; i++)
             {
                 for (int j = 0; j < 8; j++)
@@ -38,17 +43,19 @@ namespace ChessValidator.Models
                         rez = tabla[i, j].Move(tabla, pathToKing);
                         if(rez == true)
                         {
-                            //Console.WriteLine("Muti in sah!!!!!!!!" + tabla[i,j].Name + tabla[i,j].color);
-                            tabla[endX, endY] = null;
+                            Console.WriteLine("Muti in sah!!!!!!!!" + tabla[i,j].Name + tabla[i,j].color);
+                            tabla[startX, startY] = Rege;
+                            tabla[endX, endY] = bendPiesa;
                             return true;
                         }
                         //tabla[startX, startY] = Rege;
                         //tabla[endX, endY] = backUpPozitieViitoare;
-
+                        //Console.WriteLine("Muti in sah!!!!!!!!" + tabla[i, j].Name + tabla[i, j].color);
                     }
                 }
             }
-            tabla[endX, endY] = null;
+            tabla[startX, startY] = Rege;
+            tabla[endX, endY] = bendPiesa;
             return rez;
         }
 

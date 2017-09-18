@@ -26,7 +26,6 @@ namespace ChessTest
 
             target.Initialize("Kg1,Qc2,Rc1,Rd1,Bh5,Be3,Ne4,Pb3,Pd4,Pf2,Pg2,Ph2", "Kg6,Qe7,Ra8,Rf8,Bg7,Bc8,Nd7,Nb6,Pa5,Pb7,Pc6,Pe6,Ph6");
 
-            //incerc sa mut un pion alb inapoi, peste rege, fals
 
             var sePoateMuta = target.CanMove("g6-h7");
             Assert.AreEqual(sePoateMuta, true);
@@ -53,8 +52,6 @@ namespace ChessTest
             var target = CreateTarget();
 
             target.Initialize("Kg1,Qc2,Rc1,Rd1,Be2,Be3,Ne4,Pb3,Pd4,Pf2,Pg2,Ph2", "Kg6,Qe7,Ra8,Rf8,Bg7,Bc8,Nd7,Nb6,Pa5,Pb7,Pc6,Pe6,Ph6");
-
-            //mut nebunul negru peste pionul din fata turei de la h, true
 
             var sePoateMuta = target.CanMove("f7-f2");
             Assert.AreEqual(sePoateMuta, false);

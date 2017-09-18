@@ -150,7 +150,7 @@ namespace ChessValidator
             if (startPiesa == null)
                 return null;
 
-            if (startPiesa.Move(tabla, mutarePiesa) == true /*&& !startPiesa.CheckIfMove(tabla, mutarePiesa)*/)
+            if (startPiesa.Move(tabla, mutarePiesa) == true && !startPiesa.CheckIfMove(tabla, mutarePiesa))
             {
                 tabla[endX, endY] = startPiesa;
                 tabla[startX, startY] = null;
@@ -177,7 +177,7 @@ namespace ChessValidator
             if (TablaSah[startX, startY] == null)
             {
                 //Console.WriteLine("Nu exista piesa pe aceasta pozitie");
-                return true;
+                return false;
             }
             else
             {
@@ -190,31 +190,46 @@ namespace ChessValidator
                 if (TablaSah[startX, startY].Name == "Q")
                 {
                     Piece queen = new Queen();
-                    return queen.Move(TablaSah, move);
+                    if (queen.Move(TablaSah, move) == true && queen.CheckIfMove(TablaSah, move) == false)
+                        return true;
+                    else
+                        return false;
                 }
 
                 if (TablaSah[startX, startY].Name == "B")
                 {
                     Piece bishop = new Bishop();
-                    return bishop.Move(TablaSah, move);
+                    if (bishop.Move(TablaSah, move) == true && bishop.CheckIfMove(TablaSah, move) == false)
+                        return true;
+                    else
+                        return false;
                 }
 
                 if (TablaSah[startX, startY].Name == "N")
                 {
                     Piece knight = new Knight();
-                    return knight.Move(TablaSah, move);
+                    if (knight.Move(TablaSah, move) == true && knight.CheckIfMove(TablaSah, move) == false)
+                        return true;
+                    else
+                        return false;
                 }
 
                 if (TablaSah[startX, startY].Name == "P")
                 {
                     Piece pawn = new Pawn();
-                    return pawn.Move(TablaSah, move);
+                    if (pawn.Move(TablaSah, move) == true && pawn.CheckIfMove(TablaSah, move) == false)
+                        return true;
+                    else
+                        return false;
                 }
 
                 if (TablaSah[startX, startY].Name == "R")
                 {
                     Piece rook = new Rook();
-                    return rook.Move(TablaSah, move);
+                    if (rook.Move(TablaSah, move) == true && rook.CheckIfMove(TablaSah, move) == false)
+                        return true;
+                    else
+                        return false;
                 }
             }
 
