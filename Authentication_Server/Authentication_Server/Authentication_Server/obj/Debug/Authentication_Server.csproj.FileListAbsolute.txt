@@ -40,3 +40,7 @@ E:\C-\Authentication_Server\Authentication_Server\Authentication_Server\bin\Syst
 E:\C-\Authentication_Server\Authentication_Server\Authentication_Server\obj\Debug\Authentication_Server.csprojResolveAssemblyReference.cache
 E:\C-\Authentication_Server\Authentication_Server\Authentication_Server\obj\Debug\Authentication_Server.dll
 E:\C-\Authentication_Server\Authentication_Server\Authentication_Server\obj\Debug\Authentication_Server.pdb
+E:\C-\Authentication_Server\Authentication_Server\Authentication_Server\bin\jose-jwt.dll
+E:\C-\Authentication_Server\Authentication_Server\Authentication_Server\bin\System.Web.Cors.dll
+E:\C-\Authentication_Server\Authentication_Server\Authentication_Server\bin\System.Web.Http.Cors.dll
+E:\C-\Authentication_Server\Authentication_Server\Authentication_Server\bin\System.Web.Http.Cors.xml
